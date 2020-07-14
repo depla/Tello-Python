@@ -5,7 +5,8 @@ import time
 
 start_time = str(datetime.now())
 
-file_name = sys.argv[1]
+#file_name = sys.argv[1]
+file_name = 'command.txt'
 
 f = open(file_name, "r")
 commands = f.readlines()
